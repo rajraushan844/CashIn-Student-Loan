@@ -1,0 +1,20 @@
+<svg
+  width="130"
+  height="40"
+  viewBox="0 0 130 40"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <text
+    x="0"
+    y="28"
+    font-family="Space Grotesk, sans-serif"
+    font-size="24"
+    font-weight="bold"
+    fill="hsl(220 15% 25%)"
+  >
+    CASH
+    <tspan fill="hsl(145 40% 50%)">.</tspan>
+    <tspan>IN</tspan>
+  </text>
+</svg>

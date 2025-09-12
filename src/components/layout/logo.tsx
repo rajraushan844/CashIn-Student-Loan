@@ -4,7 +4,7 @@ import Image from 'next/image';
 export function Logo({ className }: { className?: string }) {
   return (
     <Image
-      src="/favicon.svg"
+      src="/cashinnobg.jpg"
       alt="CASH.IN Logo"
       width={130}
       height={40}

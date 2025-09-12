@@ -8,7 +8,7 @@ export function Logo({ className }: { className?: string }) {
       alt="CASH.IN Logo"
       width={130}
       height={40}
-      className={cn(className)}
+      className={cn("h-auto", className)}
       priority
     />
   );

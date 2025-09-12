@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   // Replace with your actual WhatsApp number
-  const whatsappNumber = '911234567890';
+  const whatsappNumber = '918340388510';
   
   return (
     <html lang="en" className="scroll-smooth">

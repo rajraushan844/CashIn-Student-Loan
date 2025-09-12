@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import { WhatsAppIcon } from '@/components/icons/whatsapp-icon';
 
 export const metadata: Metadata = {
   title: 'CASH.IN Student Loans',
@@ -13,6 +15,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Replace with your actual WhatsApp number
+  const whatsappNumber = '911234567890';
+  
   return (
     <html lang="en" className="scroll-smooth">
       <head>
@@ -26,6 +31,15 @@ export default function RootLayout({
       <body className={cn('font-body antialiased')}>
         {children}
         <Toaster />
+        <Link
+          href={`https://wa.me/${whatsappNumber}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-6 right-6 z-50 p-3 bg-white rounded-full shadow-lg transition-transform hover:scale-110"
+          aria-label="Chat on WhatsApp"
+        >
+          <WhatsAppIcon className="w-8 h-8" />
+        </Link>
       </body>
     </html>
   );

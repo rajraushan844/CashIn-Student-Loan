@@ -6,8 +6,8 @@ export function Logo({ className }: { className?: string }) {
     <Image
       src="/cashinnobg.jpg"
       alt="CASH.IN Logo"
-      width={130}
-      height={40}
+      width={162}
+      height={50}
       className={cn("h-auto", className)}
       priority
     />

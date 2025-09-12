@@ -105,7 +105,7 @@ export default function FinancialTipsForm() {
         </form>
       </Form>
       {result && result.financialTips.length > 0 && (
-        <Card className="mt-6 bg-blue-50 border-blue-200">
+        <Card className="mt-6 bg-secondary border-border">
           <CardContent className="p-6">
             <div className="flex items-center gap-3 mb-4">
                 <div className="bg-accent/10 p-2 rounded-full">
@@ -115,7 +115,7 @@ export default function FinancialTipsForm() {
             </div>
             <ul className="space-y-2">
               {result.financialTips.map((tip, index) => (
-                <li key={index} className="flex items-start text-blue-900">
+                <li key={index} className="flex items-start text-secondary-foreground">
                   <span className="font-bold mr-2">{index + 1}.</span>
                   <span>{tip}</span>
                 </li>

@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 199 83% 94%;
+    --background: 130 50% 95%;
     --foreground: 220 15% 25%;
     --card: 0 0% 100%;
     --card-foreground: 220 15% 25%;
@@ -12,15 +12,15 @@
     --popover-foreground: 220 15% 25%;
     --primary: 145 63% 32%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 199 50% 85%;
+    --secondary: 130 40% 90%;
     --secondary-foreground: 220 15% 25%;
-    --muted: 199 50% 90%;
+    --muted: 130 40% 95%;
     --muted-foreground: 220 10% 45%;
     --accent: 145 40% 50%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 199 30% 80%;
+    --border: 130 30% 85%;
     --input: 0 0% 100%;
     --ring: 145 63% 32%;
     --chart-1: 12 76% 61%;
@@ -69,4 +69,3 @@
     @apply py-16 sm:py-20 lg:py-24;
   }
 }
-

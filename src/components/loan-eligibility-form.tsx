@@ -133,9 +133,9 @@ export default function LoanEligibilityForm() {
         </form>
       </Form>
       {result && (
-        <Card className={`mt-6 ${result.eligible ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
+        <Card className={`mt-6 ${result.eligible ? 'bg-secondary' : 'bg-red-50 border-red-200'}`}>
           <CardHeader>
-            <CardTitle className={`flex items-center gap-2 ${result.eligible ? 'text-green-800' : 'text-red-800'}`}>
+            <CardTitle className={`flex items-center gap-2 ${result.eligible ? 'text-primary' : 'text-red-800'}`}>
               {result.eligible ? <ThumbsUp /> : <ThumbsDown />}
               Eligibility Result
             </CardTitle>
@@ -143,9 +143,9 @@ export default function LoanEligibilityForm() {
           <CardContent className="space-y-4">
             {result.eligible ? (
                 <>
-                <Alert variant="default" className="bg-green-100 border-green-300">
-                    <AlertTitle className="font-bold text-green-900">Congratulations! You are eligible.</AlertTitle>
-                    <AlertDescription className="text-green-800">
+                <Alert variant="default" className="bg-primary/10 border-primary/20">
+                    <AlertTitle className="font-bold text-primary">Congratulations! You are eligible.</AlertTitle>
+                    <AlertDescription className="text-primary/90">
                         Based on the information provided, you qualify for a loan.
                     </AlertDescription>
                 </Alert>

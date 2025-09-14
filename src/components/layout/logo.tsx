@@ -4,11 +4,12 @@ import Image from 'next/image';
 export function Logo({ className }: { className?: string }) {
   return (
     <Image
-      src="/cashinnobg.jpg"
+      src="/cashinnobg.png"
       alt="CASH.IN Logo"
       width={162}
       height={50}
-      className={cn("h-auto", className)}
+      className={cn("h-16 w-auto", className)}
+     
       priority
     />
   );

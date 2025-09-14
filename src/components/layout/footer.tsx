@@ -73,8 +73,8 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col-reverse justify-between pt-8 mt-10 border-t border-border/60 sm:flex-row">
-          <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} CASH.IN. All rights reserved.
+          <p className="text-center text-sm text-muted-foreground">
+          Made with ❤️ by AgamiVerse Technologies  |  &copy; 2025 CASH.IN. All rights reserved.
           </p>
         </div>
       </div>

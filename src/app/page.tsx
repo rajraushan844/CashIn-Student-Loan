@@ -6,9 +6,6 @@ import About from '@/components/sections/about';
 import LoanDetails from '@/components/sections/loan-details';
 import ProcessingFees from '@/components/sections/processing-fees';
 import Rewards from '@/components/sections/rewards';
-import Legal from '@/components/sections/legal';
-import Faq from '@/components/sections/faq';
-import Contact from '@/components/sections/contact';
 
 export default function Home() {
   return (
@@ -21,9 +18,6 @@ export default function Home() {
         <LoanDetails />
         <ProcessingFees />
         <Rewards />
-        <Legal />
-        <Faq />
-        <Contact />
       </main>
       <Footer />
     </div>

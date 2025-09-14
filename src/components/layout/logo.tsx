@@ -9,7 +9,6 @@ export function Logo({ className }: { className?: string }) {
       width={162}
       height={50}
       className={cn("h-16 w-auto", className)}
-     
       priority
     />
   );

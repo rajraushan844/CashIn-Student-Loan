@@ -1,14 +1,15 @@
 import { Logo } from '@/components/layout/logo';
 import Link from 'next/link';
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import Faq from '../sections/faq';
+import Contact from '../sections/contact';
+import Legal from '../sections/legal';
 
 const navLinks = [
   { href: '#about', label: 'About' },
   { href: '#loans', label: 'Loans' },
   { href: '#fees', label: 'Fees' },
   { href: '#rewards',label: 'Rewards' },
-  { href: '#faq', label: 'FAQs' },
-  { href: '#contact', label: 'Contact' },
 ];
 
 const socialLinks = [
@@ -21,7 +22,12 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-card text-card-foreground border-t border-border/40">
-      <div className="container py-12">
+      <div className='py-12'>
+        <Legal/>
+        <Faq/>
+        <Contact/>
+      </div>
+      <div className="container py-12 border-t">
         <div className="grid gap-10 row-gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
              <Logo />
@@ -54,6 +60,11 @@ export default function Footer() {
                  <li>
                     <Link href="#legal" className="text-sm text-muted-foreground transition-colors hover:text-primary">
                         Privacy Policy
+                    </Link>
+                </li>
+                 <li>
+                    <Link href="#faq" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                        FAQs
                     </Link>
                 </li>
             </ul>

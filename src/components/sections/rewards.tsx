@@ -18,13 +18,13 @@ export default function Rewards() {
 
         <Tabs defaultValue="cashback" className="mt-12 max-w-4xl mx-auto">
           <TabsList className="grid w-full grid-cols-3">
-            <TabsTrigger value="cashback">
+            <TabsTrigger value="cashback" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
               <Star className="mr-2 h-4 w-4" /> Cashback
             </TabsTrigger>
-            <TabsTrigger value="year-end">
+            <TabsTrigger value="year-end" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
               <Award className="mr-2 h-4 w-4" /> Year-End Reward
             </TabsTrigger>
-            <TabsTrigger value="new-year">
+            <TabsTrigger value="new-year" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
               <Gift className="mr-2 h-4 w-4" /> New Year Reward
             </TabsTrigger>
           </TabsList>

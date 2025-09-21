@@ -23,9 +23,9 @@ export default function Footer() {
   return (
     <footer className="bg-card text-card-foreground border-t border-border/40">
       <div className='py-12'>
-        {/* <Legal/> */}
-        {/* <Faq/> */}
-        {/* <Contact/> */}
+        <Legal/>
+        <Faq/>
+        <Contact/>
       </div>
       <div className="container py-12 border-t">
         <div className="grid gap-10 row-gap-8 sm:grid-cols-2 lg:grid-cols-4">
